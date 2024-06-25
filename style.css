@@ -1,0 +1,44 @@
+* {
+    font-family: Quicksand;
+    padding: 8px;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    background-color: #ffc0cb;
+}
+.navbar-right {
+    display: flex;
+    gap: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color:black;
+}
+/*Section 1*/
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img {
+    max-width: 400px;
+    max-height: 400px;
+}
+.header {
+    padding-left: 15px;
+}
+/* Skills */
+.skills {
+    font-size: 3em;
+}
+/* body */
+.body {
+    background-color: #ffe4e1;
+}
+.text {
+    font-weight: 400;
+}
